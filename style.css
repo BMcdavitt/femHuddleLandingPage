@@ -1,0 +1,153 @@
+header {
+  margin: 0.625rem 3.125rem 3.125rem 3.125rem;
+}
+
+.logo img {
+  width: 12.5rem;
+  height: 3.125rem;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('./images/bg-mobile.svg');
+  background-size: auto 100vw;
+  background-repeat: no-repeat;
+
+  margin: 0;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainLeft img {
+  width: 50vw;
+  min-width: 18.75rem;
+}
+
+.mainRight {
+  width: 50vw;
+  min-width: 18.75rem;
+  margin: 1.875rem;
+
+  text-align: center;
+}
+
+.pageHeader {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.625rem;
+}
+
+.button {
+  width: 12.5rem;
+  height: 3.5625rem;
+  border-radius: 1.875rem;
+  background-color: #fff;
+  margin: auto;
+
+  color: hsl(257, 40%, 49%);
+  font-weight: bold;
+  font-size: 0.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 3.125rem;
+}
+
+.socialButton {
+  height: 1.875rem;
+  width: 1.875rem;
+  margin-left: 0.9375rem;
+  border: 0.0625rem solid #fff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: color 0.5s;
+}
+
+.socialButton:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 90rem) {
+  header {
+    margin-top: 0;
+  }
+
+  body {
+    height: 100vh;
+    background-image: url('./images/bg-desktop.svg');
+    background-size: auto 100%;
+    font-size: 1.25rem;
+  }
+
+  .mainContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .mainLeft {
+    margin: 1.875rem;
+  }
+
+  .mainLeft img {
+    width: 43.75rem;
+    height: 31.25rem;
+  }
+  .mainRight {
+    text-align: left;
+    width: 36.25rem;
+  }
+
+  .button {
+    margin: 0;
+    font-size: 1.125rem;
+  }
+
+  footer {
+    justify-content: flex-end;
+  }
+
+  .socialButton {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

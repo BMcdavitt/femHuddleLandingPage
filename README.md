@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -10,8 +10,8 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Additional Resources](#additional)
 - [Author](#author)
-
 
 ## Overview
 
@@ -39,6 +39,9 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
+## Additional
+ - [WAVE Accessability Evaluation tool](https://wave.webaim.org/report#/https://bmcdavitt.github.io/femHuddleLandingPage/)
+ - [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbmcdavitt.github.io%2FfemHuddleLandingPage%2F)
 ## Author
 
 - Website - [Bill McDavitt](https://bmcdavitt.github.io/homepage/)

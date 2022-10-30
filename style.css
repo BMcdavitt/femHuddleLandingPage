@@ -110,6 +110,10 @@ footer {
     font-size: 1.25rem;
   }
 
+  .pageHeader{
+    font-size: 2.6875rem;
+  }
+
   .mainContainer {
     flex-direction: row;
     align-items: flex-start;
